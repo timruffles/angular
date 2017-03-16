@@ -30,9 +30,9 @@ export class ElementRef {
    *   <header>Use with caution</header>
    *   <p>
    *    Use this API as the last resort when direct access to DOM is needed. Use templating and
-   *    data-binding provided by Angular instead. Alternatively you take a look at {@link Renderer}
-   *    which provides API that can safely be used even when direct access to native elements is not
-   *    supported.
+   *    data-binding provided by Angular instead. Alternatively pass the `nativeElement` to an 
+   *    instance of {@link Renderer} which provides an imperative API that can safely be used 
+   *    even when direct access to native elements is not supported.
    *   </p>
    *   <p>
    *    Relying on direct DOM access creates tight coupling between your application and rendering
